@@ -1,0 +1,10 @@
+variable "name" { type = string }
+variable "location" { type = string }
+variable "rg_name" { type = string }
+variable "capacity" { type = number }
+variable "family" { type = string }
+variable "sku_name" { type = string }
+variable "key_vault_id" { type = string }
+variable "redis_hostname_secret_name" { type = string }
+variable "secret_name_redis_key" { type = string }
+variable "tags" { type = map(string) }
