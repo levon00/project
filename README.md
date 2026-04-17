@@ -22,14 +22,9 @@ Project Structure
 
 The project is organized into reusable Terraform modules:
 
-code
-Text
-download
-content_copy
-expand_less
 .
 └── task08
-    ├── application/             # Python Flask app, Dockerfile, and dependencies/n
+    ├── application/             # Python Flask app, Dockerfile, and dependencies
     ├── k8s-manifests/           # Kubernetes YAML templates (Deployment, Service, Secret Provider)
     ├── modules/
     │   ├── aci/                 # Container Instance configuration
